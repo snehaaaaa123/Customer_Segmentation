@@ -1,5 +1,3 @@
-import subprocess
-subprocess.check_call(['pip', 'install', 'pickle5'])
 import pickle5
 import streamlit as st
 import pandas as pd
