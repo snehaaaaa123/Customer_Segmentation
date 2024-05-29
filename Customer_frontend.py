@@ -1,7 +1,7 @@
 import streamlit as st
 import pandas as pd
 import numpy as np
-import pickle
+import pickle5
 
 # Load the trained model
 with open('random_forest_classifier.pkl', 'rb') as file:
