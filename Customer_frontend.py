@@ -5,7 +5,7 @@ import pickle5
 
 # Load the trained model
 with open('random_forest_classifier.pkl', 'rb') as file:
-    model = pickle.load(file)
+    model = pickle5.load(file)
 
 # Streamlit app
 st.title('Customer Purchase Prediction')
